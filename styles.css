@@ -23,13 +23,13 @@ body, html {
     padding-right: 1%;
     padding-left: 1%; /* Aumenta o padding para mover o conteúdo para a esquerda */
     text-align: center; /* Alinha o texto à esquerda */
-    z-index: -3;
+    z-index: 2;
 }
 
 h1 {
     font-size: 2vw;
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-shadow: 
         -1px -1px 0px rgb(0, 0, 0),  
         1px -1px 0px rgb(0, 0, 0),  
@@ -47,7 +47,21 @@ p {
         -1px 1px 0px rgb(0, 0, 0),  
         1px 1px 0px rgb(0, 0, 0);  
 }
+.instagram i {
+    color: #E1306C; /* Cor do Instagram */
+}
 
+.whatsapp i {
+    color: #25D366; /* Cor do WhatsApp */
+}
+
+.email i {
+    color:#5d5d5d;
+}
+
+.site i {
+    color: #0E76A8; /* Cor do Site */
+}
 .buttons {
     display: flex;
     flex-direction: column;
@@ -59,7 +73,7 @@ p {
 .buttons button {
     background-color: #b5c837;
     color: #5d5d5d;
-    border: 2px solid black; 
+    border: 2px solid black;
     padding: 0.50em;
     font-size: 1.5vw;
     cursor: pointer;
@@ -71,6 +85,7 @@ p {
     background-color: white;
     color: #5d5d5d;
 }
+
 
 .triangle {
     position: absolute;
@@ -109,13 +124,13 @@ p {
     }
 
     .triangle {
-        border-left: 60vw solid transparent;
-        border-bottom: 60vh solid #b5c837;
+        border-left: 40vw solid transparent;
+        border-bottom: 40vh solid #b5c837;
     }
 
     .white-band {
-        border-left: 80vw solid transparent;
-        border-bottom: 80vh solid white;
+        border-left: 60vw solid transparent;
+        border-bottom: 60vh solid white;
     }
 }
 
@@ -134,13 +149,13 @@ p {
     }
 
     .triangle {
-        border-left: 70vw solid transparent;
-        border-bottom: 70vh solid #b5c837;
+        border-left: 30vw solid transparent;
+        border-bottom: 30vh solid #b5c837;
     }
 
     .white-band {
-        border-left: 90vw solid transparent;
-        border-bottom: 90vh solid white;
+        border-left: 50vw solid transparent;
+        border-bottom: 50vh solid white;
     }
 }
 
