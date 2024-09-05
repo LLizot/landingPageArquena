@@ -4,7 +4,7 @@ function redirectTo(platform) {
             window.location.href = 'https://www.instagram.com/arquenaservicos/';
             break;
         case 'whatsapp':
-            window.location.href = 'https://wa.me/(11)99836-8596';
+            window.location.href = 'https://wa.me/5511998368596';
             break;
         case 'email':
             window.location.href = 'mailto:contato@arquenaservicos.com.br ';
