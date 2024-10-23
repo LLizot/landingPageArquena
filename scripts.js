@@ -1,7 +1,7 @@
 function redirectTo(platform) {
     switch (platform) {
         case 'instagram':
-            window.location.href = 'https://www.instagram.com/arquenaservicos/';
+            window.location.href = 'https://www.instagram.com/arquena_servicos/';
             break;
         case 'whatsapp':
             window.location.href = 'https://wa.me/5511998368596';
